@@ -2,10 +2,12 @@ NODE.JS 내가 필요한 요점
 
 
 1. 시작하기
+=============
 node.js 공홈가서 LTS로 설치
 node -v / npm -v 로 버전 확인
 
 2. 패키지 설치
+=============
 npm install / npm install --save-dev 실제적용과 개발에서만 쓸 패키지 나눠서 설치하는 용도
 ㄴ 예시 실제적용(로대쉬) / 개발에서만(parcel)
 
@@ -19,6 +21,7 @@ package.json에서 script: dev는 개발용으로 쓰는 것
 build는 실 제품용으로 배포
 
 3. 패키지 별 버전에 대한 내용
+=============
 dependencies와 devDependencies 안에 패키지들의 유의적버전은
 ^캐롯 ~틸드 두가지로 업데이트버전 표시 가능
 4(메이저).16(마이너).21(패치)
