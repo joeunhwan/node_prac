@@ -10,9 +10,9 @@ npm install / npm install --save-dev 실제적용과 개발에서만 쓸 패키�
 ㄴ 예시 실제적용(로대쉬) / 개발에서만(parcel)
 
 *주의사항
-1) 개발용과 실제 브라우저에서 동작 할 배포용으로 설치하는 패키지들을 구분해야 함
-2) 개발용은 --save-dev 로 설치할 것 (축약으로는 -D / 소문자허용 안됨)
-3) package.json에서 dependencies와 devDependencies 로 구분가능
+1_ 개발용과 실제 브라우저에서 동작 할 배포용으로 설치하는 패키지들을 구분해야 함
+2_ 개발용은 --save-dev 로 설치할 것 (축약으로는 -D / 소문자허용 안됨)
+3_ package.json에서 dependencies와 devDependencies 로 구분가능
 
 *NODE 사용시 주의사항
 package.json에서 script: dev는 개발용으로 쓰는 것
